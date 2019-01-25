@@ -1,4 +1,4 @@
 tensorflow==1.12.0
 numpy==1.15.4
-tf_metrics==0.0.1
 aiohttp==3.5.4
+git+https://github.com/guillaumegenthial/tf_metrics.git

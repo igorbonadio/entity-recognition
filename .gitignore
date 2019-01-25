@@ -1,3 +1,4 @@
 *.pyc
 .DS_Store
 dataset/glove_s300.txt
+dist_model/
