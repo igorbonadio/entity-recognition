@@ -5,7 +5,7 @@ TODO
 ## Requirements
 
 * Python 3
-* `sh setup-env.sh` will download and instal the required python libs
+* `sh setup-env.sh` will download and install the required python libs
 
 ## Training
 
