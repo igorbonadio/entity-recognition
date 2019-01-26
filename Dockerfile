@@ -20,4 +20,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8080
 
-CMD python api.py
+CMD gunicorn api --bind localhost:8080 --worker-class aiohttp.GunicornWebWorker --workers=4 --preload
