@@ -5,11 +5,9 @@ TODO
 ## Requirements
 
 * Python 3
-* `sh setup-env.sh`
+* `sh setup-env.sh` will download and instal the required python libs
 
 ## Training
-
-To train, just run:
 
 ```bash
 python train.py
@@ -17,22 +15,15 @@ python train.py
 
 ## API
 
-To build the API, run:
+To start the API, run:
 
-```bash
-docker build -t entity-recognition .
+```
+python api.py
 ```
 
-To start serving:
+It will start the API on port 8080. To test it, follow the link below:
 
-
-```bash
-docker run --rm -p 8080:8080 entity-recognition
-```
-
-It should start the API on port 8080. To test it, follow the link below:
-
-[http://localhost:8080/predict?text=O%20Brasil%20%C3%A9%20o%20maior%20pa%C3%ADs%20da%20America%20Latina](http://localhost:8080/predict?text=O%20Brasil%20%C3%A9%20o%20maior%20pa%C3%ADs%20da%20America%20Latina)
+[http://localhost:8080/predict?text=teste](http://localhost:8080/predict?text=teste)
 
 
 ## References
